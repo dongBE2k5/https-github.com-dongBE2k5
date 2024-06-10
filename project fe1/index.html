@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galatea - Webflow Ecommerce website template</title>
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/navbars/navbar-1/assets/css/navbar-1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel='stylesheet' type='text/css' media='screen' href='public/css/style.css'>
+
+
+</head>
+
+<body>
+  <!-- Navbar 1 - Bootstrap Brain Component -->
+   
+  <div class="navdiv w-nav">
+    
+    <nav class=" navbar bg-body-tertiary navbar-expand-sm bsb-navbar   nar-conten ">
+      <a class="nav-group logo" href="#">
+        <img src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f87c2a41d7435bd9edc771b_logo.svg"
+          alt="BootstrapBrain Logo" >
+      </a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home <i class="bi bi-chevron-down"></i></a>
+              <ul class="dropdown-menu" >
+            
+                <li><a class="dropdown-item" href="#">Home 1</a></li>
+                <li><a class="dropdown-item" href="#">Home 2</a></li>
+                <li><a class="dropdown-item" href="#">Home 3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> HOME IT WORKS <i class="bi bi-chevron-down"></i></a>
+              <ul class="dropdown-menu" >
+                <li><a class="dropdown-item" href="#">HOME IT WORKS 1</a></li>
+                <li><a class="dropdown-item" href="#">HOME IT WORKS 2</a></li>
+                <li><a class="dropdown-item" href="#">HOME IT WORKS 3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">SHOP</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link  " href="#!" id="pageDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Page <i class="bi bi-chevron-down"></i></a>
+              <ul class="dropdown-menu" >
+                <li><a class="dropdown-item" href="#">ABOUT 1</a></li>
+                <li><a class="dropdown-item" href="#">ABOUT 2</a></li>
+                <li><a class="dropdown-item" href="#">ABOUT 3</a></li>
+                <li><a class="dropdown-item" href="#">CONTACT US</a></li>
+                <li><a class="dropdown-item" href="#">BLOG</a></li>
+              </ul>
+            </li>
+
+          </ul>
+
+        
+
+      </div>
+    
+      <ul class="nav d-flex justify-content-end">
+        <li class="nav-item nav-2 ">
+          <div class="nav-icon p-3">
+            <a href="#" 
+              class="w-commerce-commercecartopenlink cart-button w-inline-block" role="button"
+             ><img
+                src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8e3fef7cdaba9d9d4bf06f_Shopping_Cart.svg"
+               alt="" class="icon-shopping-cart">
+              <div class="text-cart w-inline-block">Cart</div>
+              <div class="w-commerce-commercecartopenlinkcount cart-quantity">0</div>
+            </a>
+
+          </div>
+        </li>
+        <li class="nav-item p-2">
+          <a href="#" class="button-nav w-button">Get Started</a>
+        </li>
+      </ul>
+     
+    </nav>
+
+    <div class="wave-navbar"></div>
+    
+    <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0">
+      
+    </div>
+  </div>
+
+
+  <!-- BANNER -->
+  
+  <div data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+  <div class="banner">
+    <div class="wave-white-1-down"></div>
+    <div class="content">
+      <div class="block-hero">
+        <div class="text-hero">
+          <h1 class="hero-title">Healthy food <br>for busy people</h1>
+          <p class="hero-paragraph">Imagine devouring delicious, healthy meals daily without so much as lifting a pot.
+          </p>
+          <a href="#" class="button-large w-button">How It Works</a>
+        </div>
+        <div class="img-hero">
+          <div class="food-shadow-1">
+          </div>
+          <div class="food-shadow-2">
+          </div>
+          <div class="food-shadow-3">
+          </div><img
+            src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f890629fdc8820b90a154c3_food-2.png"
+            loading="lazy" alt="" class="image-food-1"><img
+            src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f890629f0327d729bbc4af3_food-1.png"
+            loading="lazy" alt="" class="image-food-2"><img
+            src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f890629d3bcf7f61684affb_food-3.png"
+            loading="lazy" alt="" class="image-food-3">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
+  <div class="banner-section">
+    <div data-aos="fade-down"></div>
+    <div class="content">
+      <div class="row ">
+        <div class="feature col-sm-4">
+          <div class="icon-block"><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8b919ec427405cb42f267b_blob_grey_1.svg"
+              loading="lazy" alt="" class="blob"><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8b93491829f46aa934b3db_icon_red_1.svg"
+              loading="lazy" alt="" class="icon-red"></div>
+          <h4>Choose your meals</h4>
+          <p class="paragraph-small">Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+        </div>
+        <div class="feature col-sm-4">
+          <div class="icon-block"><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8b919ecc42be12be606047_blob_grey_2.svg"
+              loading="lazy" alt="" class="blob"><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8b934920bc9a66b67b3e55_icon_red_2.svg"
+              loading="lazy" alt="" class="icon-red"></div>
+          <h4>Make it your own</h4>
+          <p class="paragraph-small">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae.
+          </p>
+        </div>
+        <div class="feature col-sm-4">
+          <div class="icon-block"><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8b919eba4f4535c09f6dcb_blob_grey_3.svg"
+              loading="lazy" alt="" class="blob"><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8b93499776622cf8c5ec23_icon_red_5.svg"
+              loading="lazy" alt="" class="icon-red"></div>
+          <h4>Fresh and affordable</h4>
+          <p class="paragraph-small">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
+  <div class="banner-section">
+    <div class=" grid-full row">
+      <div class=" block-full col-sm-6 col-ban">
+        <div class="block-full-text">
+          <div class="subtitle white">Our menu</div>
+          <h2 class="title white">Mix and match your meals to get a meal kit you’ll love.</h2>
+          <p class="paragraph-white">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+            eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis.</p><a href="#"
+            class="button orange w-button">VIEW OUR MENU</a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-banner">
+        <img src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8b9b350d072e18a5c49996_image_1.jpg"
+          loading="lazy" id="w-node-_6d6d61b0-a174-3f22-272c-dc9d4aa8b7f7-a146d8a0" sizes="100vw" alt=""
+          srcset="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8b9b350d072e18a5c49996_image_1-p-500.jpeg 500w, https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8b9b350d072e18a5c49996_image_1.jpg 1070w"
+          class="image-grid">
+      </div>
+    </div>
+
+    <div class="wave-white-2-top"></div>
+    <div class="wave-white-1-down"></div>
+  </div>
+</div>
+
+<div data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="400"
+     data-aos-offset="0">
+  <div class="banner-section">
+    <div class="content">
+      <div class="grid-full  row">
+        <div class="food-blob-group col-sm-6">
+          <img
+            src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8ba9295eb38664d61c0857_blob_group_1.svg"
+            loading="lazy" alt="" class="blob-group">
+          <div class="food-shadow-blob"></div>
+          <img
+            src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f890629fdc8820b90a154c3_food-2.png"
+            loading="lazy" alt="" class="image-food-blob">
+        </div>
+        <div class="block-right col-sm-6 col-box-banner">
+          <div class="subtitle">Started</div>
+          <h2 class="title">Meal plans made for your lifestyle</h2>
+          <p class="paragraph">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+            eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis.</p>
+          <div class="feature-list"><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8b93491829f46aa934b3db_icon_red_1.svg"
+              loading="lazy" width="18" alt="" class="icon-list-red">
+            <h6 class="feature-list-heading">Choose your meals</h6>
+          </div>
+          <div class="feature-list"><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8b93494e5fced245b3a98e_icon_red_4.svg"
+              loading="lazy" width="18" alt="" class="icon-list-red">
+            <h6 class="feature-list-heading">We cook &amp; deliver</h6>
+          </div>
+          <div class="feature-list"><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8b9349cc42be11dd6062a7_icon_red_3.svg"
+              loading="lazy" width="18" alt="" class="icon-list-red">
+            <h6 class="feature-list-heading">Heat &amp; eat</h6>
+          </div>
+          <div class="feature-list"><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8b934920bc9a66b67b3e55_icon_red_2.svg"
+              loading="lazy" width="18" alt="" class="icon-list-red">
+            <h6 class="feature-list-heading">Enjoy &amp; Repeat</h6>
+          </div>
+
+        </div>
+      </div>
+      <div class="group">
+        <div class="block-center">
+          <div class="block-right"></div>
+          <div class="subtitle">Plans</div>
+          <h2 class="title">Chef meal plans</h2>
+          <p class="paragraph">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
+            ultricies nisi. Nam eget dui.</p>
+        </div>
+        <div class="collection-list-wrapper w-dyn-list ">
+          <div role="group" class="collection-list-product w-dyn-items row">
+            <div role="listitem" class="w-dyn-item col-sm-4">
+              <div class="product"><a href="#" class="link-product w-inline-block"><img
+                    loading="lazy"
+                    src="https://assets-global.website-files.com/5f8e3d7830da5b5bc2d3fe53/5f8e4b2066f6561a788c4eeb_plan_3.jpg"
+                    alt="" class="plan-thumbnail"></a>
+                <div class="block-product">
+                  <div class="meals">
+                    <div class="meals-text">12</div>
+                    <div class="meals-text">meals</div>
+                  </div>
+                  <div class="price-block">
+                    <div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D"
+                      style="color:hsla(186.09625668449198, 80.95%, 45.29%, 1.00)" class="plan-price">
+                      $&nbsp;99.00&nbsp;USD</div>
+                    <div class="plan-price-info">per week</div>
+                  </div><a href="#" class="link-plan-name w-inline-block">
+                    <h5 class="plan-name">Lean &amp; Clean Dinner</h5>
+                  </a>
+                  <p class="paragraph-small">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper.</p><a
+                    style="background-color:hsla(186.09625668449198, 80.95%, 45.29%, 1.00)"
+                    href="#" class="button-small w-button">CHOOSE PLAN</a>
+                </div>
+              </div>
+            </div>
+            <div role="listitem" class="w-dyn-item col-sm-4">
+              <div class="product"><a href="#" class="link-product w-inline-block"><img
+                    loading="lazy"
+                    src="https://assets-global.website-files.com/5f8e3d7830da5b5bc2d3fe53/5f8e4ada930e535b2d03726a_plan_2.jpg"
+                    alt="" class="plan-thumbnail"></a>
+                <div class="block-product">
+                  <div class="meals">
+                    <div class="meals-text">7</div>
+                    <div class="meals-text">meals</div>
+                  </div>
+                  <div class="price-block">
+                    <div 
+                      style="color:hsla(159.75460122699386, 100.00%, 31.96%, 1.00)" class="plan-price">
+                      $&nbsp;79.00&nbsp;USD</div>
+                    <div class="plan-price-info">per week</div>
+                  </div><a href="#" class="link-plan-name w-inline-block">
+                    <h5 class="plan-name">Balanced Living</h5>
+                  </a>
+                  <p class="paragraph-small">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p><a
+                   class="button-small w-button">CHOOSE PLAN</a>
+                </div>
+              </div>
+            </div>
+            <div role="listitem" class="w-dyn-item col-sm-4">
+              <div class="product"><a href="#" class="link-product w-inline-block"><img
+                    loading="lazy"
+                    src="https://assets-global.website-files.com/5f8e3d7830da5b5bc2d3fe53/5f8e497a3211dab017d5bb7e_plan_1.jpg"
+                    alt="" class="plan-thumbnail"></a>
+                <div class="block-product">
+                  <div class="meals">
+                    <div class="meals-text">4</div>
+                    <div class="meals-text">meals</div>
+                  </div>
+                  <div class="price-block">
+                    <div 
+                      style="color:#fb8c23" class="plan-price">$&nbsp;49.00&nbsp;USD</div>
+                    <div class="plan-price-info">per week</div>
+                  </div><a href="#" class="link-plan-name w-inline-block">
+                    <h5 class="plan-name">Classic Dinner</h5>
+                  </a>
+                  <p class="paragraph-small">Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p><a
+                    style="background-color:#fb8c23" href="#" class="button-small w-button">CHOOSE
+                    PLAN</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
+  <div class="banner-section-backgound">
+    <div class="wave-white-3-top"></div>
+    <div class="content">
+      <div class="block-center">
+        <div class="subtitle">Testimonials</div>
+        <h2 class="title">Feel good stories from our clients.</h2>
+      </div>
+      <div class=" row">
+        <div class="boder-col-banner">
+
+        </div>
+        <div class="col-sm-3">
+          <div class="testimonial ">
+            <img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8bb455c32c3f248564345f_image_testimonial_1.jpg"
+              loading="lazy" alt="" class="image-testimonial">
+            <div class="heading-testimonial">Camilla Holt</div>
+            <p class="paragraph-testimonial">Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
+              tempus</p><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8baf75977662133ac621a2_icon_testimonial.svg"
+              loading="lazy" alt="" class="icon-testimonial">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="testimonial ">
+
+            <img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8bb455140225531e3747c7_image_testimonial_2.jpg"
+              loading="lazy" alt="" class="image-testimonial">
+            <div class="heading-testimonial">Tracey Morris</div>
+            <p class="paragraph-testimonial">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+              ullamcorper</p><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8baf75977662133ac621a2_icon_testimonial.svg"
+              loading="lazy" alt="" class="icon-testimonial">
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="testimonial ">
+            <img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8bb4555b34168e3400356b_image_testimonial_3.jpg"
+              loading="lazy" alt="" class="image-testimonial">
+            <div class="heading-testimonial">Miriam Davis</div>
+            <p class="paragraph-testimonial">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+              consequat massa</p><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8baf75977662133ac621a2_icon_testimonial.svg"
+              loading="lazy" alt="" class="icon-testimonial">
+
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="testimonial">
+            <img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8bb4554e5fceb02cb3dd10_image_testimonial_4.jpg"
+              loading="lazy" alt="" class="image-testimonial">
+            <div class="heading-testimonial">Daniel Blake</div>
+            <p class="paragraph-testimonial">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero
+              venenatis</p><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8baf75977662133ac621a2_icon_testimonial.svg"
+              loading="lazy" alt="" class="icon-testimonial">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
+  <div class="banner-section">
+    <div class="bn-small">
+      <div class="content">
+        <div class="content-bn">
+          <h2 class="content-bn-h2">
+            Autopilot your diet,
+            <br>
+            and start
+            <span class="text-extra">feeling amazing.</span>
+          </h2>
+
+          <a href="#" class="button-large orange w-button">HOME IT WORD</a>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="wave-grey-1-top"></div>
+    <div class="wave-white-2-down"></div>
+  </div>
+</div>
+
+<div data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
+  <div class="banner-section">
+    <div class="content">
+      <div class="block-center">
+        <div class="subtitle">Menu</div>
+        <h2 class="title">Explore our menu</h2>
+        <p class="paragraph">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet
+          adipiscing sem neque.</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 mt-4">
+          <div class="product"><a href="#" class="link-product w-inline-block"><img
+                loading="lazy"
+                src="https://assets-global.website-files.com/5f8e3d7830da5b5bc2d3fe53/5f8e4e539e39d4f721e71816_food_3.jpg"
+                alt="" class="product-thumbnail"></a>
+            <div class="block-product"><a href="#" class="link-product-name w-inline-block">
+                <h5 class="product-name">Steak Peppercorn</h5>
+              </a>
+              <div class="price-block-product">
+                <div
+                  class="product-price">$&nbsp;12.99&nbsp;USD</div>
+                <div
+                 
+                  class="text-compare-at-price">$&nbsp;15.99&nbsp;USD</div>
+              </div>
+              <p class="paragraph-small">Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus</p>
+              <div class="add-to-cart">
+                <form data-node-type="commerce-add-to-cart-form" data-commerce-sku-id="5f8e4e5e8fe6a54f003b8144"
+                  data-loading-text="Adding to cart..." data-commerce-product-id="5f8e4e5ec79947a0c3ca0a10"
+                  class="w-commerce-commerceaddtocartform default-state">
+                  <div class="block-add-to-cart"><input type="submit" 
+                     
+                      class="w-commerce-commerceaddtocartbutton add-to-cart-button-small" value="Add to Cart"></div><a
+                   
+                  style="display:none"
+                    class="w-commerce-commercebuynowbutton buy-now-button-small w-dyn-hide" href="/checkout">Buy now</a>
+                </form>
+                <div style="display:none" class="w-commerce-commerceaddtocartoutofstock out-of-stock-state"
+                  tabindex="0">
+                  <div class="text-stock-state">This product is out of stock.</div>
+                </div>
+                <div  style="display:none"
+                  class="w-commerce-commerceaddtocarterror error-message">
+                  <div  class="text-error"
+                >Product is not
+                    available in this quantity.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 mt-4">
+     
+            <div class="product"><a href="#" class="link-product w-inline-block"><img
+                  loading="lazy"
+                  src="https://assets-global.website-files.com/5f8e3d7830da5b5bc2d3fe53/5f8e4dee64543911ff1f04c6_food_2.jpg"
+                  alt="" class="product-thumbnail"></a>
+              <div class="block-product"><a href="#" class="link-product-name w-inline-block">
+                  <h5 class="product-name">Take-Out Style</h5>
+                </a>
+                <div class="price-block-product">
+                  <div 
+                    class="product-price">$&nbsp;1.99&nbsp;USD</div>
+                  <div
+                   
+                    class="text-compare-at-price w-dyn-bind-empty"></div>
+                </div>
+                <p class="paragraph-small">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+                </p>
+                <div class="add-to-cart">
+                  <form
+             
+                    class="w-commerce-commerceaddtocartform default-state">
+                    <div class="block-add-to-cart"><input type="submit" data-node-type="commerce-add-to-cart-button"
+                        data-loading-text="Adding to cart..." aria-busy="false" aria-haspopup="dialog"
+                        class="w-commerce-commerceaddtocartbutton add-to-cart-button-small" value="Add to Cart"></div><a
+                      data-node-type="commerce-buy-now-button" data-default-text="Buy now"
+                      data-subscription-text="Subscribe now" aria-busy="false" aria-haspopup="false"
+                      style="display:none" class="w-commerce-commercebuynowbutton buy-now-button-small w-dyn-hide"
+                      href="/checkout">Buy now</a>
+                  </form>
+                  <div style="display:none" class="w-commerce-commerceaddtocartoutofstock out-of-stock-state"
+                    tabindex="0">
+                    <div class="text-stock-state">This product is out of stock.</div>
+                  </div>
+                  <div style="display:none"
+                    class="w-commerce-commerceaddtocarterror error-message">
+                    <div  class="text-error"
+                   >Product is not
+                      available in this quantity.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         
+        </div>
+        <div class="col-sm-4 mt-4">
+          <div class="product"><a href="#" class="link-product w-inline-block"><img
+                loading="lazy"
+                src="https://assets-global.website-files.com/5f8e3d7830da5b5bc2d3fe53/5f8e4d0585639e6421cac2af_food_1.jpg"
+                alt="" class="product-thumbnail"></a>
+            <div class="block-product"><a href="#" class="link-product-name w-inline-block">
+                <h5 class="product-name">Citrus-kissed Orange</h5>
+              </a>
+              <div class="price-block-product">
+                <div 
+                  class="product-price">$&nbsp;7.99&nbsp;USD</div>
+                <div
+                 
+                  class="text-compare-at-price w-dyn-bind-empty"></div>
+              </div>
+              <p class="paragraph-small">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. </p>
+              <div class="add-to-cart">
+                <form 
+                  class="w-commerce-commerceaddtocartform default-state">
+                  <div class="block-add-to-cart"><input type="submit"
+                      class="w-commerce-commerceaddtocartbutton add-to-cart-button-small" value="Add to Cart"></div><a
+                    data-node-type="commerce-buy-now-button" data-default-text="Buy now"
+                    data-subscription-text="Subscribe now" aria-busy="false" aria-haspopup="false" style="display:none"
+                    class="w-commerce-commercebuynowbutton buy-now-button-small w-dyn-hide" href="/checkout">Buy now</a>
+                </form>
+                <div style="display:none" class="w-commerce-commerceaddtocartoutofstock out-of-stock-state"
+                  tabindex="0">
+                  <div class="text-stock-state">This product is out of stock.</div>
+                </div>
+                <div  style="display:none"
+                  class="w-commerce-commerceaddtocarterror error-message">
+                  <div  class="text-error"
+                   >Product is not
+                    available in this quantity.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-layout-grid grid-banner">
+        <img src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8ce06eda2bfa7fdf59017d_banner.png"
+          loading="lazy" alt="" class="image-banner">
+        <div class="text-banner">
+          <div class="subtitle white">Join now</div>
+          <h2 class="title white">Nutritionally designed meals you’ll crave</h2><a href="#"
+            class="button white w-button">GET STARTED</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div data-aos="zoom-in-up">
+  <div class="banner-section-backgound">
+    <div class="content">
+      <div class="block-center">
+        <div class="subtitle">
+          Faq
+        </div>
+        <h2 class="title">
+          Frequently Asked Questions
+        </h2>
+      </div>
+      <div class="w-layout-grid bnr-items">
+        <div class="bn-qwrety">
+          <div class="btn-qwerty-content accordion">
+            <h6 class="accordion-heading">Can I choose my meals?</h6>
+            <img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8ce81d30a28c696d2bed08_arrow.svg"
+              loading="lazy" alt="" class="icon-arrow">
+          </div>
+          <div class="accordion-content panel" >
+            <p class="paragraph-accordion">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+              ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
+          </div>
+        </div>
+        <div class="bn-qwrety">
+          <div class="btn-qwerty-content accordion">
+            <h6 class="accordion-heading">When will I receive my order?</h6><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8ce81d30a28c696d2bed08_arrow.svg"
+              loading="lazy" alt="" class="icon-arrow">
+          </div>
+          <div class="accordion-content panel" >
+            <p class="paragraph-accordion">Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+              tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus
+              in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+          </div>
+        </div>
+        <div class="bn-qwrety">
+          <div class="btn-qwerty-content accordion">
+            <h6 class="accordion-heading">Can I skip a delivery?</h6><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8ce81d30a28c696d2bed08_arrow.svg"
+              loading="lazy" alt="" class="icon-arrow">
+          </div>
+          <div class="accordion-content panel" >
+            <p class="paragraph-accordion">Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
+              tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing</p>
+          </div>
+        </div>
+        <div class="bn-qwrety ">
+          <div class="btn-qwerty-content accordion ">
+            <h6 class="accordion-heading">Can I add Extras to my delivery?</h6><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8ce81d30a28c696d2bed08_arrow.svg"
+              loading="lazy" alt="" class="icon-arrow">
+          </div>
+          <div class="accordion-content panel" >
+            <p class="paragraph-accordion">Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
+              Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+</div>
+
+  <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+  <div class="banner-section">
+    <div class="wave-grey-2-top">
+
+    </div>
+    <div class="accent-b">
+      <div class="content">
+        <div class="accent-center">
+          <h2 class="accent-title">Join <span class="text-extra">our</span> newsletter<br></h2>
+          <div class="form-block w-form">
+            <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form"><input
+                class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Enter your email"
+                type="email" id="email" required=""><input type="submit" data-wait="Please wait..."
+                class="submit-button w-button" value="Submit"></form>
+            <div class="success-message w-form-done">
+              <div class="text-success" style="display: none;">Thank you! Your submission has been received!</div>
+            </div>
+            <div class="error-message w-form-fail" tabindex="-1" role="region" aria-label="Email Form failure">
+              <div class="text-error" style="display: none;">Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="footer">
+    
+    <div class="wave-footer"></div>
+    <div class="content-footer">
+      <div class="footer-group"><img
+          src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8e08d12a17a346370a87ec_logo_footer.svg"
+          loading="lazy" width="175" height="64" alt="" class="logo-footer"><a href="#"
+          target="_blank" class="link-footer">Powered by Webflow</a><a
+          href="https://webflow.com/templates/designers/maxim-white" target="_blank" class="link-footer">Made by Maxim
+          W.</a></div>
+      <div class="footer-group"><a href=#" class="link-footer">Style Guide</a><a
+          href="/template-info/changelog" class="link-footer">Changelog</a><a href="#"
+          class="link-footer">Image Licensing</a>
+        <div class="w-layout-grid grid-social"><a href="#" target="_blank"
+            class="social-link w-inline-block"><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8e0ce4297cae48700f3fe5_Facebook.svg"
+              loading="lazy" alt="" class="image-social"></a><a href="https://twitter.com/webflow" target="_blank"
+            class="social-link w-inline-block"><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8e0ce5b2cd2cf8180a4c61_Twitter.svg"
+              loading="lazy" alt="" class="image-social"></a><a href="https://www.instagram.com/webflow/"
+            target="_blank" class="social-link w-inline-block"><img
+              src="https://assets-global.website-files.com/5f8777f972356e39b046d89f/5f8e0ce4c713880dccc17a28_Instagram.svg"
+              loading="lazy" alt="" class="image-social"></a></div>
+      </div>
+    </div>
+  </div>
+  https://galatea.webflow.io/
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src='public/javascript/app.js'></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
